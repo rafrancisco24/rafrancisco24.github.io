@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+body{
+    background-image:url("images/ButterflyFamilyTree.webp");
+    background-size: cover;
+}
+h1 {
+    font-family: "Delius", cursive;
+    color: red;
+    font-size: 50px;
+    background-color: pink;
+    border: 2px solid blue;
+    padding: 10px
+    text-align: center;
+    width: 25%
+    margin: 20px
+
+}
+
+p{
+    color: blue;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.myspan{
+    color: purple;
+    text-decoration:underline;
+}
