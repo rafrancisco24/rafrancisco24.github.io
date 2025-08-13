@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(69, 114, 151) 
+}
+
+p{
+    color: white;
+}
+
+.li1{
+    color: red;
+    font-size: italic;
+}
+
+.li2{
+    color: purple;
+    font-weight: bold;
+}
+
+.myspan{
+    color: red;
+    font-weight: bold;
+    font-decoration: underline;
+}
+
+.head1{
+    color: white
+    font-size: 30px
+    font-weight: bold;
+    fonr-align: right
+}
+
+.head2{
+    color:red;
+    font-size: 30px
+    font-weight: bold;
+    fonr-align: right
+}
+ .ms1{
+    color: yellow;
+    text-decoration: underline;
+ }
+
+ .ms2{
+    color: blue;
+ }
+
+ .head3{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-align: left;
+    background-color: black;
+    border-top:2px solid maroon;
+    border-left: 2px solic red;
+    width:50
+
+ }
+
+ .ms4{
+    color: blue;
+    font-style: italic;
+ }
+
+ .ms5{
+    color: red;
+    font-weight: bold;
+ }
+
+ .part1{
+    font-style: italic;
+    background-color: black;
+    border-left: 2px solid red;
+    border-right: 2px solid yellow;
+    text-align: center;
+ }
+
+ .head5{
+    color: green;
+ 
+ }
+
+
+
+
