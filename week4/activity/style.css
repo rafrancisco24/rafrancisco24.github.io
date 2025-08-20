@@ -1,0 +1,68 @@
+.container1{
+    display: flex;
+    height: 500px;
+    border-bottom: 15px solid black;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.box{
+    width: 100%;
+    height: 100px;
+}
+
+.A{
+    height: 100%;
+    background-color: white;
+    border-bottom: 30px solid black;
+}
+
+.B{
+    height: 100%;
+    background-color: white;
+}
+
+.C{
+    background-color: red;
+    width: 200%;
+    height: 500px;
+    border-left: 15px solid black;
+}
+
+.container3{
+    display: flex;
+}
+
+.D{
+    background-color: blue;
+    border-right: 15px solid black;
+    width: 63.3%;
+    height: 200px;
+
+}   
+
+.E{
+    background-color: white;
+    height: 100%;
+   
+}
+
+.container4{
+    border-left: 15px solid black;
+    width:25%;
+    
+}
+.F{
+    background-color: white;
+    border-bottom: black 15px solid;
+   
+}
+.G{
+    background-color: yellow;
+}
