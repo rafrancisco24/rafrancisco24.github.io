@@ -1,51 +1,56 @@
-.main{
-    display: flex;
-    border: 7px solid darkgray;
-    border-radius: 10px;
-    padding: 20px;
+.fascinate-regular {
+    font-family: 'Fascinate', system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.content{
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
 
+body {
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
 }
 
-.wifi{
-    display: flex;
-    border-radius: 10px;
-    padding: 5px;
-   
-
+.feature-bar {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  
 }
 
-.bed{
-    display: flex;
-    border-radius: 10px; 
-    padding: 5px;
-
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  
 }
 
-.bathtub{
-   display: flex;
-   border-radius: 10px;
-   padding: 5px;
-
+.feature:hover {
+  color: #004588;
+  background-color: #004588;
+  color: white;
+  
 }
 
-.SquareFoot{
-    display: flex;
-    border-radius: 10px; 
-    padding: 5px;
-
+.feature span {
+  font-size: 26px;
+  
 }
 
-.content{
-    display: flex;
-
+.feature p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  
 }
-
