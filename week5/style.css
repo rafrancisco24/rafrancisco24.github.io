@@ -1,59 +1,56 @@
-.card{
-    border:1px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 7px 7px 0 0;
-    
+.fascinate-regular {
+    font-family: 'Fascinate', system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.box.hover{
-    box-shadow: 7px 7px 0 0 lightpink;
-    background: rgb(240, 80, 6);
-    background: #ac43f1;
-    background: linear-gradient(90deg, rgb(165, 33, 33) 0%, rgb(253, 29, 134) 50%, rgb(252, 96, 69) 100%);
+
+body {
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
 }
 
-.card:hover{
-    background: radial-gradient(circle,rgb(245, 84, 197) 0%, rgb(230, 101, 69) 100%);
-    cursor: pointer;
-    box-shadow: 0px -1px 14px #000000;
-
+.feature-bar {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  
 }
 
-h2,p{
-    margin:0;
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  
 }
 
-.card-header{
-    display:flex;
+.feature:hover {
+  color: #004588;
+  background-color: #004588;
+  color: white;
+  
 }
 
-.card-body{
-    border-top:1px solid black;
-    margin-top:10px;
-    padding-top:10px;
-
+.feature span {
+  font-size: 26px;
+  
 }
 
-.Main-Box{
-    display:flex;
-    gap: 20px;
-}
-
-.p{
-    margin-bottom: 10px;
-}
-
-.btn{
-    border:none;
-    background: linear-gradient(90deg,hwb(243 44% 9%) 0%, rgb(224, 48, 201) 35%, rgb(224, 87, 32) 100%);
-    color:#ffffff;
-    padding: 10px 20px;
-    border-radius: 100px;
-}
-
-.btn:hover{
-    background: linear-gradient(90deg,rgb(163, 57, 250) 0%, rgb(42, 161, 152) 35%, rgb(221, 38, 99) 100%);
-    cursor: pointer;
-
+.feature p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  
 }
