@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    border: 7px solid darkgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wifi{
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+   
+
+}
+
+.bed{
+    display: flex;
+    border-radius: 10px; 
+    padding: 5px;
+
+}
+
+.bathtub{
+   display: flex;
+   border-radius: 10px;
+   padding: 5px;
+
+}
+
+.SquareFoot{
+    display: flex;
+    border-radius: 10px; 
+    padding: 5px;
+
+}
+
+.content{
+    display: flex;
+
+}
+
